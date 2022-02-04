@@ -27,7 +27,38 @@
 </head>
 <body>
     <header class="bg-shakib">
-        <section class="container mx-auto  sm:flex sm:justify-around sm:items-center pb-10 sm:pb-32 pt-8 ">
+
+      <section>
+       
+        <nav class="relative w-full flex flex-wrap items-center justify-between py-4 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg">
+          <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+            <div class="container-fluid">
+              <a class="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1" href="#">
+                <img class="mr-2" src="images/logo.png" style="height: 20px" alt="" loading="lazy" />
+              </a>
+            </div>
+            <div class="">
+              <ul class="navbar-nav flex  pl-0 list-style-none ml-auto ">
+                <li class="nav-item px-2">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link text-gray-700 hover:text-gray-900 focus:text-gray-700 p-0" href="#product">Product</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link text-gray-700 hover:text-gray-900 focus:text-gray-700 p-0" href="#aboutus">About us</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link text-gray-700 hover:text-gray-900 focus:text-gray-700 p-0" href="#">Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+        <section class="container mx-auto  sm:flex sm:justify-around sm:items-center pb-10 sm:pb-32 pt-8 " id="home">
             <div class="firstpart">
                 <h1 class="uppercase text-2xl sm:text-5xl font-bold  ">
                     <span class=" text-yellow-400 inline-block mb-4 ">Be the Penguin</span>
@@ -49,12 +80,12 @@
     </header>
 
     <!-- main section -->
-    <main>
+    <main id="product">
       <section class="container mx-auto my-4 bh-sectionbg">
         <!-- women jacket -->
         <section class="women jacket">
           <h1 class="uppercase text-5xl mt-14 font-bold">Women Jacket</h1>
-        <div class=" cardall my-12 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 border-0  ">
+        <div class=" cardall my-12 sm:grid sm:grid-cols-2  lg:grid lg:grid-cols-3 border-0  ">
           <div class="card bg-white rounded-3xl mr-5 my-5 shadow-xl">
             <div class="picture my-8 bg-jacket flex justify-center items-center rounded-3xl mx-4">
               <img class="w-80 h-80 p-3" src="images/jacket-1.png" alt="jacket-1">
@@ -113,7 +144,7 @@
 
         <section class="men jacket">
           <h1 class="uppercase text-5xl mt-14 font-bold">Men Jacket</h1>
-          <div class=" cardall my-12 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 border-0  ">
+          <div class=" cardall my-12 sm:grid sm:grid-cols-2 lg:grid lg:grid-cols-3 border-0  ">
             <div class="card bg-white rounded-3xl mr-5 my-5 shadow-xl">
               <div class="picture my-8 bg-jacket flex justify-center items-center rounded-3xl mx-4">
                 <img class="w-80 h-80 p-3" src="images/jacket-4.png" alt="jacket-1">
@@ -169,11 +200,55 @@
           </div>
 
         </section>
-        
-        
-       
-
       </section>
+
+
+      <!-- out Benifits -->
+  <section class="container mx-auto my-20 py-5 " id="aboutus">
+<div class=" lg:grid grid-cols-2">
+   <!-- services -->
+    <div class="md:flex items-center bg-white shadow-lg rounded-2xl mb-4">
+     
+      <div>
+        <img class="w-20 h-20 m-7 mr-9" src="images/house.png" alt="house">
+      </div>
+      <div>
+        <h2>Find the perfect places</h2>
+        <p>Everybody is different, which is why we
+          offer styles for every body.</p>
+      </div>
+    </div>
+    <div class="row-span-3 flex justify-center items-center0 " >
+      <img class="max-w-xl max-h-96 " src="images/shopping.png" alt="shopping-cart">
+  </div>
+    <div class="md:flex items-center shadow-lg rounded-2xl mb-4">
+      <div>
+        <img class="w-20 h-20 m-7 mr-9 "  src="images/box.png" alt="box">
+      </div>
+      <div>
+        <h2>Free Exchanges </h2>
+        <p>One of the many reasons you can shop
+          with peace of mind.</p>
+      </div>
+    </div>
+    <div class="md:flex items-center shadow-lg rounded-2xl mb-4">
+      <div>
+        <img class="w-20 h-20 m-7 mr-9"  src="images/question.png" alt="question">
+      </div>
+      <div>
+        <h2>Contact our seller</h2>
+        <p>They are here to help you. That's quite 
+          literally what we pay them for.</p>
+      </div>
+    
+
+  </div>
+ 
+ 
+ </div>
+     
+</section>
+
     </main>
     
    
